@@ -1,0 +1,6 @@
+[web]
+web01 ansible_host=192.0.2.10
+web02 ansible_host=192.0.2.11
+
+[web:vars]
+ansible_user=ec2-user
